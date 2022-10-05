@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="E2069838 - Karim Amzert - applications web 2" />
         <p className="description">
-          Patrick Pierre<code>pages/index.js</code>
+          Patrick Pierre
         </p>
       </main>
 
