@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="E2069838 - Karim Amzert - applications web 2" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Patrick Pierre<code>pages/index.js</code>
         </p>
       </main>
 
