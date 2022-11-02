@@ -15,6 +15,11 @@ export default function Home() {
         <p className="description">
           Patrick Pierre
         </p>
+            <input type="text" name="name" id="name" required/>
+        <p class="phone-field">
+          <label>Phone</label>
+          <input type="text" name="phone" id="phone"/>
+        </p>
       </main>
 
       <Footer />
