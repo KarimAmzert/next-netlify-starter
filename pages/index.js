@@ -15,11 +15,17 @@ export default function Home() {
         <p className="description">
           Patrick Pierre
         </p>
-    <label>Name</label>
-            <input type="text" name="name" id="name" required/>
+         <p class="name-field">
+          <label>Name <span>*</span></label>
+          <input type="text" name="name" id="name" required/>
+        </p>
         <p class="phone-field">
           <label>Phone</label>
           <input type="text" name="phone" id="phone"/>
+        </p>
+         <p class="message-field full">
+          <label>Message</label>
+          <textarea name="message" rows="5" id="message"></textarea>
         </p>
       </main>
 
