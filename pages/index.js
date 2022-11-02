@@ -15,6 +15,7 @@ export default function Home() {
         <p className="description">
           Patrick Pierre
         </p>
+    <label>Name</label>
             <input type="text" name="name" id="name" required/>
         <p class="phone-field">
           <label>Phone</label>
