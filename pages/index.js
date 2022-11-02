@@ -27,6 +27,9 @@ export default function Home() {
           <label>Message</label>
           <textarea name="message" rows="5" id="message"></textarea>
         </p>
+        <p class="submit-button">
+          <button type="submit">Submit</button>
+        </p>
       </main>
 
       <Footer />
