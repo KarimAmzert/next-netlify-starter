@@ -1,7 +1,20 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+const low = require('lowdb')
+const FileSync = require('lowdb/adapters/FileSync')
+const adapter = new FileSync('db.json')
+const db = low(adapter)
+db.defaults({ contact: []})
+  .write()
+function submit() {  
+  db.get('contact')
+  .push({ name: document.getElementById("name"), phone: document.getElementById("phone"), message: document.getElementById("message")})
+  .write()
 
+}
+document.getElementById("submit").addEventListener(submit())
+firebase.initializeApp(config);
 export default function Home() {
   return (
     <div className="container">
